@@ -27,20 +27,21 @@
                 <div class="p-3 py-5">
                     <div class="d-flex justify-content-between align-items-center mb-3">
                         <h4 class="text-right">Informações Pessoais</h4>
+                        <button type="button"  class ="alterarinfo" onclick="habilitarCampos()">Alterar Informações</button>
                     </div>
                     <div class="row mt-2">
-                        <div class="col-md-6" class="editable" class="editable"><label class="labels">Nome</label><input type="text" class="form-control"id="editable-field" value="Adilson"class="editable"ondblclick="enableEdit(this)"></div>
-                        <div class="col-md-6"  class="editable" ondblclick="enableEdit(this)"><label class="labels">Sobrenome</label><input type="text" class="form-control" value="Rocha" placeholder=""></div>
+                        <div class="col-md-6" class="editable" class="editable"><label class="labels">Nome</label><input type="text" class="form-control"id="editable-field" value="Adilson"class="editable" disabled></div>
+                        <div class="col-md-6"  class="editable" ondblclick="enableEdit(this)"><label class="labels">Sobrenome</label><input type="text" class="form-control" value="Rocha" placeholder="" disabled></div>
                     </div>
                     <div class="row mt-3">
-                        <div class="col-md-12"><label class="labels">Telefone</label><input type="text" class="form-control" placeholder="enter phone number" value="(16)982439650"></div>
-                        <div class="col-md-12"><label class="labels">Data de Nascimento</label><input type="date" class="form-control" placeholder="enter address line 1" value="01/08/2003"></div>
-                        <div class="col-md-12"><label class="labels">Endereço</label><input type="text" class="form-control" placeholder="enter address line 2" value=" R.Dr Teófilo Ribeiro de Andrade"></div>
-                        <div class="col-md-12"><label class="labels">CPF/CNPJ </label><input type="text" class="form-control" placeholder="enter address line 2" value="420.592.638-32"></div>
-                        <div class="col-md-12"><label class="labels">Endereço Comercial</label><input type="text" class="form-control" placeholder="enter address line 2" value="R.Antônio Correa De Almeida Moraes"></div>
-                        <div class="col-md-12"><label class="labels">Telefone Comercial</label><input type="text" class="form-control" placeholder="enter address line 2" value="(16)997663753"></div>
-                        <div class="col-md-12"><label class="labels">Email </label><input type="text" class="form-control" placeholder="enter email id" value="adilsonjuniorrocha123@gmail.com"></div>
-                        <div class="col-md-12"><label class="labels">Serviços Ofertados</label><input type="checklabel" class="form-control" placeholder="education" value=""></div>
+                        <div class="col-md-12"><label class="labels">Telefone</label><input type="text" class="form-control" placeholder="enter phone number" value="(16)982439650"disabled></div>
+                        <div class="col-md-12"><label class="labels">Data de Nascimento</label><input type="date" class="form-control" placeholder="enter address line 1" value="01/08/2003"disabled></div>
+                        <div class="col-md-12"><label class="labels">Endereço</label><input type="text" class="form-control" placeholder="enter address line 2" value=" R.Dr Teófilo Ribeiro de Andrade"disabled></div>
+                        <div class="col-md-12"><label class="labels">CPF/CNPJ </label><input type="text" class="form-control" placeholder="enter address line 2" value="420.592.638-32"disabled></div>
+                        <div class="col-md-12"><label class="labels">Endereço Comercial</label><input type="text" class="form-control" placeholder="enter address line 2" value="R.Antônio Correa De Almeida Moraes"disabled></div>
+                        <div class="col-md-12"><label class="labels">Telefone Comercial</label><input type="text" class="form-control" placeholder="enter address line 2" value="(16)997663753"disabled></div>
+                        <div class="col-md-12"><label class="labels">Email </label><input type="text" class="form-control" placeholder="enter email id" value="adilsonjuniorrocha123@gmail.com"disabled></div>
+                        <div class="col-md-12"><label class="labels">Serviços Ofertados</label><input type="checklabel" class="form-control" placeholder="education" value=""disabled></div>
                     </div>
                     
                     <div class="mt-5 text-center"><button class="SaveProfile" type="button">Save Profile</button></div>
