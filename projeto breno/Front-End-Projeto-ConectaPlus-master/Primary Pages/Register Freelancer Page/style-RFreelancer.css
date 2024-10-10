@@ -1,0 +1,49 @@
+.register-freelancer-area{
+
+    background-color: gray;
+    color: white;
+    padding: 10%;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    border-radius: 6px;
+
+}
+
+.register-freelancer-area form{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.label-form-freelancer{
+
+    margin-bottom: 2%;
+    margin-top: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+
+}
+
+.input-form-freelancer{
+
+    padding: 4%;
+    border-radius: 6px;
+
+}
+
+#register-freelancer-button{
+
+    background-color: yellow;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 6%;
+    border-radius: 6px;
+    margin-left: 15%;
+    margin-top: 15%;
+    cursor: pointer;
+
+
+}

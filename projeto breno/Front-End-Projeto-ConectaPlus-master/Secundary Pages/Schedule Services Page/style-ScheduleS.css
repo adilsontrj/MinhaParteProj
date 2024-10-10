@@ -1,0 +1,31 @@
+.schedule-div{
+
+    background-color: rgb(206, 166, 56);
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+
+}
+
+.schedule-div img{
+
+    width: 10%;
+
+
+}
+
+.schedule-div a{
+
+    font-weight: bold;
+
+}
+
+.schedule-div a:hover{
+
+    color: white;
+    cursor: pointer;
+
+}

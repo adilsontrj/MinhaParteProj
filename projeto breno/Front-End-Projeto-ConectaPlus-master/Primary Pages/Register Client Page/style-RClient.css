@@ -1,0 +1,47 @@
+.register-client-area{
+
+    background-color: gray;
+    color: white;
+    padding: 10%;
+    margin: 0 auto;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    border-radius: 6px;
+    
+}
+
+.register-client-area form{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.label-form-register{
+  
+    margin-bottom: 2%;
+    margin-top: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+
+}
+
+.input-form-register{
+
+    padding: 4%;
+    border-radius: 6px;
+
+
+}
+
+#register-client-button{
+
+    background-color: yellow;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 6%;
+    margin-top: 20%;
+    margin-left: 15%;
+}

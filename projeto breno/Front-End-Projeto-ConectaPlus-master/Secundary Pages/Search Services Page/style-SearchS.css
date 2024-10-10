@@ -1,0 +1,107 @@
+.service-div1{
+
+    background-color: rgb(35, 119, 35);
+    color: white;
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    margin-bottom: 3%;
+
+}
+
+.service-div2{
+
+    background-color: rgb(87, 87, 238);
+    color: white;
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    margin-bottom: 3%;
+
+}
+
+.service-div3{
+
+    background-color: rgb(200, 52, 245);
+    color: white;
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    margin-bottom: 3%;
+
+}
+
+.service-div4{
+
+    background-color: rgb(252, 49, 49);
+    color: white;
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    margin-bottom: 10%;
+
+}
+
+.button-service{
+
+    padding: 2%;
+    background-color: #ffde59;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    
+
+}
+
+.button-service-page{
+
+    padding: 2%;
+    background-color: #ffde59;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+
+}
+
+.button-service-page-alt{
+
+    padding: 2%;
+    background-color: #ffde59;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    margin-bottom: 5%;
+    border-radius: 8px;
+
+}
+
+.link-service{
+
+    text-decoration: none;
+
+
+}
+
+.link-service:hover{
+
+    color: black;    
+
+}
+
+.freelancer{
+
+    background-color: rgb(77, 236, 85);
+    padding: 2%;
+    margin: 0 auto;
+    border-radius: 8px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#perfil-free{
+
+    width: 5%
+
+}

@@ -1,0 +1,64 @@
+.register-area{
+
+    background-color: rgb(173, 171, 171);
+    color:white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 10%;
+    margin-top: 5%;
+    margin-bottom: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.register-buttons{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+span{
+
+    color: yellow;
+    border: 2px solid blue;
+
+
+}
+
+#button-freelancer-register{
+
+    background-color: yellow;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    padding: 8%;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10%;
+    
+
+}
+
+#button-client-register{
+
+    background-color: yellow;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    padding: 8%;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20%;
+
+
+}
