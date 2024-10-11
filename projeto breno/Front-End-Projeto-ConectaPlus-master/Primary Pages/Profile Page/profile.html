@@ -1,71 +1,84 @@
 <!DOCTYPE html>
-<html lang="">
-
+<html lang="pt-BR">
 
 <head>
-
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../../Global Archives/globalstyle.css">
     <link rel="stylesheet" type="text/css" href="style-profile.css">
     <script src="../../Global Archives/globalscript.js"></script>
-    <script src="script-profile.js"></script>
+    <script defer src="script-profile.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Meu Perfil | Conecta+</title>
-
 </head>
-<body>
 
+<body>
     <div class="teste">
-    <div class="container rounded bg-white mt-5 mb-5">
-        <div class="row">
-            <div class="col-md-3 border-right">
-                <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"><span class="font-weight-bold">Edogaru</span><span class="text-black-50"></span><span> </span></div>
-            </div>
-            <div class="col-md-5 border-right">
-                <div class="p-3 py-5">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <h4 class="text-right">Informações Pessoais</h4>
-                        <button type="button"  class ="alterarinfo" onclick="habilitarCampos()">Alterar Informações</button>
+        <div class="container rounded bg-white mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-3 border-right">
+                    <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+                        <img class="rounded-circle mt-5" width="150px" src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg">
+                        <span class="font-weight-bold">Edogaru</span>
+                        <span class="text-black-50"></span><span> </span>
                     </div>
-                    <div class="row mt-2">
-                        <div class="col-md-6" class="editable" class="editable"><label class="labels">Nome</label><input type="text" class="form-control"id="editable-field" value="Adilson"class="editable" disabled></div>
-                        <div class="col-md-6"  class="editable" ondblclick="enableEdit(this)"><label class="labels">Sobrenome</label><input type="text" class="form-control" value="Rocha" placeholder="" disabled></div>
+                </div>
+                <div class="col-md-5 border-right">
+                    <div class="p-3 py-5">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h4 class="text-right">Informações Pessoais</h4>
+                            <button type="button" id="btnHabilitar" class="alterarinfo">Alterar Informações</button>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-6">
+                                <label class="labels">Nome</label>
+                                <input type="text" class="form-control formulario" id="editable-field" value="Adilson" disabled>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="labels">Sobrenome</label>
+                                <input type="text" class="form-control formulario" value="Rocha" disabled>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <label class="labels">Telefone</label>
+                                <input type="text" class="form-control formulario" placeholder="enter phone number" value="(16)982439650" disabled>
+                            </div>
+                            <div class="col-md-12">
+                                <label class="labels">Data de Nascimento</label>
+                                <input type="date" class="form-control formulario" value="2003-08-01" disabled>
+                            </div>
+                            <div class="col-md-12">
+                                <label class="labels">Endereço</label>
+                                <input type="text" class="form-control formulario" value=" R.Dr Teófilo Ribeiro de Andrade" disabled>
+                            </div>
+                            <div class="col-md-12">
+                                <label class="labels">CPF/CNPJ</label>
+                                <input type="text" class="form-control formulario" value="420.592.638-32" disabled>
+                            </div>
+                            <div class="col-md-12">
+                                <label class="labels">Endereço Comercial</label>
+                                <input type="text" class="form-control formulario" value="R.Antônio Correa De Almeida Moraes" disabled>
+                            </div>
+                            <div class="col-md-12">
+                                <label class="labels">Telefone Comercial</label>
+                                <input type="text" class="form-control formulario" value="(16)997663753" disabled>
+                            </div>
+                            <div class="col-md-12">
+                                <label class="labels">Email</label>
+                                <input type="text" class="form-control formulario" value="adilsonjuniorrocha123@gmail.com" disabled>
+                            </div>
+                            <div class="mt-5 text-center">
+                                <button class="SaveProfile" type="button">Save Profile</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row mt-3">
-                        <div class="col-md-12"><label class="labels">Telefone</label><input type="text" class="form-control" placeholder="enter phone number" value="(16)982439650"disabled></div>
-                        <div class="col-md-12"><label class="labels">Data de Nascimento</label><input type="date" class="form-control" placeholder="enter address line 1" value="01/08/2003"disabled></div>
-                        <div class="col-md-12"><label class="labels">Endereço</label><input type="text" class="form-control" placeholder="enter address line 2" value=" R.Dr Teófilo Ribeiro de Andrade"disabled></div>
-                        <div class="col-md-12"><label class="labels">CPF/CNPJ </label><input type="text" class="form-control" placeholder="enter address line 2" value="420.592.638-32"disabled></div>
-                        <div class="col-md-12"><label class="labels">Endereço Comercial</label><input type="text" class="form-control" placeholder="enter address line 2" value="R.Antônio Correa De Almeida Moraes"disabled></div>
-                        <div class="col-md-12"><label class="labels">Telefone Comercial</label><input type="text" class="form-control" placeholder="enter address line 2" value="(16)997663753"disabled></div>
-                        <div class="col-md-12"><label class="labels">Email </label><input type="text" class="form-control" placeholder="enter email id" value="adilsonjuniorrocha123@gmail.com"disabled></div>
-                        <div class="col-md-12"><label class="labels">Serviços Ofertados</label><input type="checklabel" class="form-control" placeholder="education" value=""disabled></div>
-                    </div>
-                    
-                    <div class="mt-5 text-center"><button class="SaveProfile" type="button">Save Profile</button></div>
                 </div>
             </div>
-            
         </div>
     </div>
-    </div>
-    </div>
-</div>
-
-
-
-    <footer>
-        
-      
-    </footer>
-
-
-
-
+    <footer></footer>
 </body>
-
-
 
 </html>
