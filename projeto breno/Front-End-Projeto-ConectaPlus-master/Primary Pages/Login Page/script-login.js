@@ -1,10 +1,14 @@
-const togglePassword = document.querySelector("#togglePassword");
-const passowrd = document.querySelector("#input-email");
 
-togglePassword.addEventListener("click", function() {
-const type = passowrd.type ==="password" ? "text": "password"
+document.addEventListener('DOMContentLoaded', function () {
+ 
+    const passwordInput = document.querySelector('#input-email');
+    const togglePassword = document.querySelector('#togglePassword');
 
-passowrd.type = type
+   
+    togglePassword.addEventListener('click', function () {
 
-
+        const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+        passwordInput.setAttribute('type', type);
+        this.classList.toggle('fa-eye-slash');
+    });
 });
